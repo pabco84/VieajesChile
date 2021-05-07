@@ -1,9 +1,43 @@
 body {
     font-family: 'Raleway', sans-serif;
     background-color: black;
+    color:white;
+}
+
+.carousel-item {
+    max-height: 700px;
+    overflow: hidden;
 }
 
 .iconos {
     background-color:#5DC1B9;
    
+}
+
+.navbar {
+    background-color: transparent !important;
+}
+
+.footer {
+    background-color:#5DC1B9 ;
+    text-transform: uppercase;
+}
+
+.card {
+    color:black;
+}
+
+.ico {
+    padding: 0.3rem;
+    color:white;
+}
+
+.cards {
+    width: 100%;
+    height: 30vh;
+    object-fit: cover;
+    }
+
+.card{
+    background-color:#5DC1B9 ;
 }

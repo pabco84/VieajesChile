@@ -19,9 +19,11 @@
     <title>Document</title>
 </head>
 
+<header>
 <!-- EL Navbar -->
-<nav class="navbar navbar-expand-md navbar-light bg-light">
-    <a class="navbar-brand" href="#"><span class="logo">Viajes Chile</span></a>
+<nav class="navbar navbar-expand-md navbar-light bg-light fixed-top">
+    
+    <a class="navbar-brand" href="#"><span class="logo text-light">Viajes Chile</span></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
       aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -29,16 +31,16 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav ml-auto">
         <li class="nav-item">
-          <a class="nav-link" href="#inicio">Inicio</a>
+          <a class="nav-link text-light" href="#inicio">Inicio</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#quienes somos">Quienes Somos</a>
+          <a class="nav-link text-light" href="#quienes somos">Quienes Somos</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#destacados">Destacados</a>
+          <a class="nav-link text-light" href="#destacados">Destacados</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#contacto">Contacto</a>
+          <a class="nav-link text-light" href="#contacto">Contacto</a>
         </li>
       </ul>
     </div>
@@ -70,25 +72,25 @@
     </a>
   </div>
 <!-- Termino del primer corousel -->
-
+</header>
 <!-- Poniendo el primer div -->
 <section id="quienes somos"></section>
-<div class="container py-3">
+<div class="container py-3 d-none d-sm-none d-md-block">
     <h1 class="text-center text-light">¿Quienes Somos?</h1>
-    <hr width=100%  align="center"  size=10   noshade="noshade">
+    <hr width=100%  align="center"  size=50   noshade="noshade">
 
     <div class="row">
         <div class="col-4">
-            <span class="iconos d-flex justify-content-center py-1"><i class="fas fa-plane"></i></span>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum eos autem molestias tenetur voluptatem. Perspiciatis odit nulla ab dolorem, eos, esse molestiae, cum eius blanditiis expedita aut. Repellat, laboriosam impedit!</p>
+            <span class="iconos d-flex justify-content-center py-1"><i class="fas fa-plane fa-2x"></i></span>
+            <p class="py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum eos autem molestias tenetur voluptatem. Perspiciatis odit nulla ab dolorem, eos, esse molestiae, cum eius blanditiis expedita aut. Repellat, laboriosam impedit!</p>
         </div>
         <div class="col-4">
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum eos autem molestias tenetur voluptatem. Perspiciatis odit nulla ab dolorem, eos, esse molestiae, cum eius blanditiis expedita aut. Repellat, laboriosam impedit!</p>
-        <span class="iconos d-flex justify-content-center py-1"><i class="fas fa-mountain"></i></span>
+        <p class="py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum eos autem molestias tenetur voluptatem. Perspiciatis odit nulla ab dolorem, eos, esse molestiae, cum eius blanditiis expedita aut. Repellat, laboriosam impedit!</p>
+        <span class="iconos d-flex justify-content-center py-1 fa-2x"><i class="fas fa-mountain"></i></span>
         </div>
         <div class="col-4">
-        <span class="iconos d-flex justify-content-center py-1"><i class="fas fa-route"></i></span>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum eos autem molestias tenetur voluptatem. Perspiciatis odit nulla ab dolorem, eos, esse molestiae, cum eius blanditiis expedita aut. Repellat, laboriosam impedit!</p>
+        <span class="iconos d-flex justify-content-center py-1 fa-2x"><i class="fas fa-route"></i></span>
+        <p class="py-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illum eos autem molestias tenetur voluptatem. Perspiciatis odit nulla ab dolorem, eos, esse molestiae, cum eius blanditiis expedita aut. Repellat, laboriosam impedit!</p>
         </div>
     </div>
 </div>
@@ -96,38 +98,44 @@
 
 <!-- cards  -->
 <section id="destacados"></section>
+
+<h1 class="text-center text-light pt-5">Destacados</h1>
+
 <div class="container">
-<div class="card-deck py-3">
+    <hr width=100%  align="center"  size=10   noshade="noshade">
+<div class="card-deck py-5">
+
+
     <div class="card">
-      <img class="card-img-top" src="assets/img/card1.jpg" alt="Card image cap">
+      <img class="card-img-top cards" src="assets/img/card1.jpg" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <h5 class="card-title">Primera</h5>
+        <p class="card-text py-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum a voluptates distinctio, asperiores architecto nostrum eos repudiandae, quaerat, aperiam sequi commodi consequuntur recusandae reprehenderit. Sapiente vitae similique molestiae nesciunt accusamus.</p>
+        
       </div>
     </div>
     <div class="card">
-      <img class="card-img-top" src="assets/img/card2.jpg" alt="Card image cap">
+      <img class="card-img-top cards" src="assets/img/card2.jpg" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <h5 class="card-title">Segunda</h5>
+        <p class="card-text py1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit sit minima ab ipsam accusantium illo quasi dolorem error voluptatem eos tempora sapiente, nobis autem officiis ullam sint atque reiciendis. Nihil?</p>
+        
       </div>
     </div>
     <div class="card">
-      <img class="card-img-top" src="assets/img/card3.jpg" alt="Card image cap">
+      <img class="card-img-top cards" src="assets/img/card3.jpg" alt="Card image cap">
       <div class="card-body">
-        <h5 class="card-title">Card title</h5>
-        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <h5 class="card-title">Tercera</h5>
+        <p class="card-text py-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos eius, provident similique nulla consectetur voluptatum beatae debitis quos repellat, sequi nesciunt neque corporis facilis esse, natus nostrum consequatur explicabo atque.</p>
+       
       </div>
     </div>
     <div class="card">
-        <img class="card-img-top" src="assets/img/card4.jpg" alt="Card image cap">
+        <img class="card-img-top cards" src="assets/img/card4.jpg" alt="Card image cap">
         <div class="card-body">
-          <h5 class="card-title">Card title</h5>
-          <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-          <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+          <h5 class="card-title">Cuarta</h5>
+          <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia quod ullam sed voluptatibus aspernatur, sunt numquam laborum est itaque, cum corporis rerum nulla. Nemo nihil accusamus itaque beatae odit maxime.</p>
+          
         </div>
       </div>
   </div>
@@ -137,6 +145,26 @@
   <section id="contacto" class="text-center text-light py-3" ></section>
     <h1 class="text-center text-light">Contacto</h1>
     <div class="container"><div class="typeform-widget" data-url="https://form.typeform.com/to/gUQPyHDe?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) { js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script></div>
+
+
+<!-- el foooooooterrrr -->
+<footer class="py-3">
+    <div class="footer container-fluid py-2 cols">
+        <div class="container">
+            <div class="row">
+              <div class="col">
+                <h2 class="texto-footer text-left text-light font-weight-bold">Viajes Chile</h2>
+              </div>
+              <div class="col d-flex justify-content-end ico">
+                <i class="fab fa-github-square fa-2x ico" href="https://www.github.com"></i>
+                <i class="fab fa-linkedin fa-2x ico"></i>
+                <i class="fab fa-twitter-square fa-2x ico"></i>
+                <i class="fab fa-facebook-square fa-2x ico"></i>
+              </div>
+            </div>
+        </div>
+    </div>
+</footer>
 
     <!-- jquery -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
